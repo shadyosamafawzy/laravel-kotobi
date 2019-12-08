@@ -68,7 +68,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => App\kotobi\users\Models\User::class,
         ],
 
         // 'users' => [

@@ -32,8 +32,8 @@
 
 <section id="container" class="">
     <!--header start-->
-    @yield('H-menu')
-    <!--header end-->
+@yield('H-menu')
+<!--header end-->
     <!--sidebar start-->
 
     <!--sidebar end-->
@@ -41,9 +41,9 @@
     <section id="main-content">
         <section class="wrapper">
             <!-- page start-->
-            @yield('content')
+        @yield('content')
 
-            <!-- page end-->
+        <!-- page end-->
         </section>
     </section>
     <!--main content end-->
