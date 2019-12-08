@@ -11,5 +11,19 @@ namespace App\kotobi;
 
 class Service
 {
+    private $errors;
 
+    public function setErrors($error)
+    {
+        if(is_array($error))
+            $this->errors = $error;
+
+        $this->errors[] = $error;
+
+    }
+
+    public function getErrors()
+    {
+        return $this->errors;
+    }
 }

@@ -24,6 +24,9 @@
                         <li><a href="font_awesome.html">Font Awesome</a></li>
                     </ul>
                 </li>
+                <li><a  href="login">login</a>
+                <li><a  href="register">register</a>
+
             </ul>
 
         </div>
@@ -35,17 +38,7 @@
                 <li>
                     <input type="text"  class="form-control search" placeholder=" Search">
                 </li>
-                <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <img alt="" src="">
-                        <span class="username">{{session('username')}}</span>
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu extended logout">
-                        <div class="log-arrow-up"></div>
-                        <li><a href="logout"><i class="fa fa-key"></i> Log Out</a></li>
-                    </ul>
-                </li>
+
             </ul>
         </div>
 

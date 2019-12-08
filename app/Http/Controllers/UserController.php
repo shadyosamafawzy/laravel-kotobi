@@ -30,7 +30,7 @@ class UserController extends Controller
     public function loginProcess(Request $request)
     {
         if (Auth::attempt(['username' => $request->username , 'password' => $request->password])) {
-            session(['username' => Auth::user()->username ,'user_id' => Auth::user()->user_id ]);
+            session(['username' => Auth::user()->username ,'user_id' => Auth::user()->user_id ,'group_id' => Auth::user()->group_id ]);
             return redirect('home');
         }
         return redirect()->back()->with('error','invalid username or password');

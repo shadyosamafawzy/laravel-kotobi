@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('H-menu')
-    @include('users.H-menu')
+    @include('guest.H-menu')
 @endsection
 @section('content')
 
