@@ -80,8 +80,8 @@
                         <span>Authors</span>
                     </a>
                     <ul class="sub">
-                        <li><a  href="boxed_page.html">All Authors</a></li>
-                        <li><a  href="horizontal_menu.html">Add Authors</a></li>
+                        <li><a  href="{{route('authorsAdmin')}}">All Authors</a></li>
+                        <li><a  href="{{route('addAuthorAdmin')}}">Add Authors</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu">

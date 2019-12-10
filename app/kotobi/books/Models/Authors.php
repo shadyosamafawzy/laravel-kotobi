@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Authors extends Model
 {
-    protected $guarded    = [];
     protected $table      = 'authors';
+    protected $guarded    = [];
     protected $primaryKey = 'author_id';
 
 
