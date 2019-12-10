@@ -2,6 +2,8 @@
 
 
 Route::get('/home', 'Controller@checkUser');
+//error 101
+Route::get('101', 'Controller@error');
 
 Route::get('logout', 'UserController@logout');
 
@@ -27,4 +29,12 @@ Route::get('add/author','AuthorsController@addForm')->name('addAuthorAdmin');
 Route::post('add/author','AuthorsController@addProcess');
 Route::get('author/edit/{authors}','AuthorsController@editForm');
 Route::post('author/edit/{authors}','AuthorsController@editProcess');
+
+    //books
+Route::get('books','BooksController@index')->name('booksAdmin');
+Route::get('book/del/{book}','BooksController@delete');
+Route::get('add/book','BooksController@addForm')->name('addBookAdmin');
+Route::post('add/book','BooksController@addProcess');
+Route::get('book/edit/{book}','BooksController@editForm');
+Route::post('book/edit/{book}','BooksController@editProcess');
 

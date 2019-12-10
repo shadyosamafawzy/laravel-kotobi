@@ -27,4 +27,16 @@ class Controller extends BaseController
         }
 
     }
+
+
+    public function checkUserId($id ){
+        if(session('group_id')!= $id)
+            return redirect('home');
+    }
+
+
+    public function error(){
+            return view('101');
+    }
+
 }

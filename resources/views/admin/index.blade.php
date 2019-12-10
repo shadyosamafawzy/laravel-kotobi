@@ -100,8 +100,8 @@
                         <span>Books</span>
                     </a>
                     <ul class="sub">
-                        <li><a  href="boxed_page.html">All Books</a></li>
-                        <li><a  href="horizontal_menu.html">Add Book</a></li>
+                        <li><a  href="{{route('booksAdmin')}}">All Books</a></li>
+                        <li><a  href="{{route('addBookAdmin')}}">Add Book</a></li>
                     </ul>
                 </li>
 

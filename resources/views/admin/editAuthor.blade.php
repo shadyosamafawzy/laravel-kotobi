@@ -40,7 +40,6 @@
                         <div class="col-lg-10">
                             <img src="{{asset('uploads/'.$author->image)}}" height="100" width="100" />
                             <input type="file" name="image" class="form-control" >
-                            <input type="hidden" name="oldImage" class="form-control"  value="{{$author->image}}">
                         </div>
                     </div>
                     {{csrf_field()}}
