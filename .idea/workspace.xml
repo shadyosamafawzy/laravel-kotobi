@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1789d5-3c2d-4981-8ac9-dd6983bec702" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/kotobi/books/Models/Books.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/101.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/addBook.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/books.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/editBook.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/kotobi/books/Models/Books_Categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/author.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/book.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthorsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/kotobi/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/kotobi/Repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/kotobi/books/Repository/AuthorsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/kotobi/books/Repository/AuthorsRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/8fb11b08d9d61d4c2620bf6962cec3bb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/1deb85f9c20b4f13cfcc4303081d2d1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/fd6ed260b39aeb2ac1adf999f8b648bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/addBook.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/addBook.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/authors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/authors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/editAuthor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/editAuthor.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/books.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/editBook.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/editBook.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +31,13 @@
     <session id="-1435218111">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,37 +45,37 @@
           <entry key="PNG" value="2" />
           <entry key="env" value="1" />
           <entry key="html" value="6" />
-          <entry key="jpg" value="28" />
+          <entry key="jpg" value="39" />
           <entry key="js" value="2" />
-          <entry key="php" value="145" />
+          <entry key="php" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Blade" value="75" />
+          <entry key="Blade" value="85" />
           <entry key="HTML" value="6" />
-          <entry key="Image" value="30" />
+          <entry key="Image" value="41" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="70" />
+          <entry key="PHP" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="6" />
-          <entry key="php" value="8537" />
+          <entry key="php" value="10245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="6" />
-          <entry key="Blade" value="2936" />
-          <entry key="PHP" value="5601" />
+          <entry key="Blade" value="3463" />
+          <entry key="PHP" value="6782" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="14" />
+          <entry key="PHP Class.type" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -85,38 +83,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BooksController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="616">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
               <folding>
-                <element signature="e#41#75#0#PHP" expanded="true" />
-                <element signature="e#580#703#0#PHP" />
-                <element signature="e#709#819#0#PHP" />
-                <element signature="e#825#1000#0#PHP" />
-                <element signature="e#1178#1296#0#PHP" />
+                <element signature="e#41#77#0#PHP" expanded="true" />
+                <element signature="e#344#529#0#PHP" />
+                <element signature="e#535#724#0#PHP" />
+                <element signature="e#730#965#0#PHP" />
+                <element signature="e#971#1154#0#PHP" />
+                <element signature="e#1160#1398#0#PHP" />
+                <element signature="e#1404#1682#0#PHP" />
+                <element signature="e#1688#1879#0#PHP" />
+                <element signature="e#1931#2360#0#PHP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/addBook.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="309">
+              <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/editBook.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
               <folding>
-                <element signature="e#365#726#0#PHP" />
-                <element signature="e#731#873#0#PHP" />
+                <element signature="e#48#82#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+              <folding>
+                <element signature="e#45#93#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,32 +183,34 @@
         <option value="$PROJECT_DIR$/app/kotobi/books/Models/Categories.php" />
         <option value="$PROJECT_DIR$/app/kotobi/Service.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/addCategory.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/editCategory.blade.php" />
         <option value="$PROJECT_DIR$/app/kotobi/books/Service/CategoriesService.php" />
         <option value="$PROJECT_DIR$/app/kotobi/books/Repository/CategoriesRepository.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/addAuthor.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/auth.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/author.blade.php" />
         <option value="$PROJECT_DIR$/app/kotobi/books/Models/Authors.php" />
         <option value="$PROJECT_DIR$/app/kotobi/books/Service/AuthorsService.php" />
         <option value="$PROJECT_DIR$/app/kotobi/books/Models/Books.php" />
-        <option value="$PROJECT_DIR$/app/kotobi/books/Repository/AuthorsRepository.php" />
         <option value="$PROJECT_DIR$/app/kotobi/Repository.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/authors.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/books.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/editAuthor.blade.php" />
-        <option value="$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php" />
-        <option value="$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/addBook.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/editBook.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AuthorsController.php" />
         <option value="$PROJECT_DIR$/resources/views/101.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/books.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/authors.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/author.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AuthorsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/editBook.blade.php" />
+        <option value="$PROJECT_DIR$/app/kotobi/books/Models/Books_Categories.php" />
+        <option value="$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/addBook.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/book.blade.php" />
+        <option value="$PROJECT_DIR$/app/kotobi/books/Repository/AuthorsRepository.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" />
+        <option value="$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php" />
       </list>
     </option>
   </component>
@@ -309,7 +333,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,7 +361,34 @@
             <path>
               <item name="kotobi" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotobi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotobi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotobi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotobi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotobi" type="b2602c69:ProjectViewProjectNode" />
@@ -351,10 +401,18 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kotobi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotobi" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,16 +424,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\kotobi\app\kotobi\books\Models" />
-      <recent name="C:\xampp\htdocs\kotobi\app\kotobi\users\Models" />
-      <recent name="C:\xampp\htdocs\kotobi\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\kotobi\resources\views\admin" />
       <recent name="C:\xampp\htdocs\kotobi\app\kotobi\users" />
       <recent name="C:\xampp\htdocs\kotobi\resources\views\guest" />
       <recent name="C:\xampp\htdocs\kotobi\resources\views\users" />
+      <recent name="C:\xampp\htdocs\kotobi\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kotobi\app\kotobi\books\Models" />
+      <recent name="C:\xampp\htdocs\kotobi\app\kotobi\users\Models" />
       <recent name="C:\xampp\htdocs\kotobi\public" />
     </key>
   </component>
@@ -403,18 +461,20 @@
       <updated>1575709719603</updated>
       <workItem from="1575709726724" duration="13671000" />
       <workItem from="1575776217237" duration="28902000" />
-      <workItem from="1575959407172" duration="16064000" />
+      <workItem from="1575959407172" duration="16778000" />
+      <workItem from="1576043032419" duration="7875000" />
+      <workItem from="1576050964739" duration="2740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58637000" />
+    <option name="totallyTimeSpent" value="69966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23758389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -427,7 +487,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.304698" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,98 +502,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/collection/PHP/templates/flatlab/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="638" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/auth.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/author.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/editCategory.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="101" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Models/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="1149" column="55" selection-start-line="1149" selection-start-column="45" selection-end-line="1149" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Models/Authors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Service/CategoriesService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="46" column="38" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="46" selection-end-column="38" />
-          <folding>
-            <element signature="e#40#79#0#PHP" expanded="true" />
-            <element signature="e#235#360#0#PHP" />
-            <element signature="e#366#490#0#PHP" />
-            <element signature="e#496#575#0#PHP" />
-            <element signature="e#581#694#0#PHP" />
-            <element signature="e#700#829#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/c8522bb55dd9f323112b45fb0886e429.jpg" />
-    <entry file="file://$PROJECT_DIR$/public/img/3aecc65c831c693d226c14be41f43575.jpg" />
-    <entry file="file://$PROJECT_DIR$/public/img/02ec5366396961ab32ab1a5f9bee170e.jpg" />
-    <entry file="file://$PROJECT_DIR$/public/img/43664d5a2b7e3972a4f4222fe5622297.jpg" />
-    <entry file="file://$PROJECT_DIR$/public/img/795ffeb27fa2d7a547582399b2b504c7.jpg" />
     <entry file="file://$PROJECT_DIR$/public/img/8028431ddb73c2a6924c99066d90bc23.jpg" />
-    <entry file="file://$PROJECT_DIR$/public/uploads/6dd1e6dfe99cf4977f9a0e3af762632f.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/2239fe8c32723fe454ba10807bc86e7d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/f9b593752cbeaeef37b4ece507838374.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/7f6d05115267a528e93e6b816c869045.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/65470ff30721d787a50be635d7f80d47.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/7a0c30fb33ffbbc6bdfd4a0aa1b24811.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/a10450caf03acb56dc5c978f32b518fd.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/d78913d0fbead148032a4af56ab1387a.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/1a3ed0b6536c3a553c64d6f05b321ab9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/6dd1e6dfe99cf4977f9a0e3af762632f.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/2239fe8c32723fe454ba10807bc86e7d.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/f9b593752cbeaeef37b4ece507838374.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/7f6d05115267a528e93e6b816c869045.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/65470ff30721d787a50be635d7f80d47.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/7a0c30fb33ffbbc6bdfd4a0aa1b24811.PNG" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/a10450caf03acb56dc5c978f32b518fd.PNG" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/d78913d0fbead148032a4af56ab1387a.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/1a3ed0b6536c3a553c64d6f05b321ab9.jpg" />
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Storage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1129">
@@ -566,11 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="103" column="59" selection-start-line="103" selection-start-column="59" selection-end-line="103" selection-end-column="59" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#aside#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#aside#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#aside#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,95 +561,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/books.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/authors.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/uploads/bb65be1600a2d2354e5711025821d9d5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/uploads/cbde6d1161ad617f9cc3d006de12f247.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/fd6ed260b39aeb2ac1adf999f8b648bc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/fd6ed260b39aeb2ac1adf999f8b648bc.jpg" />
     <entry file="file://$PROJECT_DIR$/public/uploads/fff8c1d17b7f628995f7059fb6bda79f.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/a364c4e82bb36ddef1cca92f4b8d3f3e.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Service/AuthorsService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="33" column="71" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="71" />
-          <folding>
-            <element signature="e#45#95#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="e#45#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/a364c4e82bb36ddef1cca92f4b8d3f3e.jpg" />
     <entry file="file://$PROJECT_DIR$/resources/views/admin/editAuthor.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Repository/AuthorsRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#47#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="e#48#82#0#PHP" expanded="true" />
-            <element signature="e#178#245#0#PHP" />
-            <element signature="e#210#238#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/addBook.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="76" column="79" selection-start-line="76" selection-start-column="79" selection-end-line="76" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/editBook.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="70" column="79" selection-start-line="70" selection-start-column="79" selection-end-line="70" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -687,22 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthorsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#41#77#0#PHP" expanded="true" />
-            <element signature="e#329#451#0#PHP" />
-            <element signature="e#457#534#0#PHP" />
-            <element signature="e#540#654#0#PHP" />
-            <element signature="e#660#847#0#PHP" />
-            <element signature="e#853#1007#0#PHP" />
-            <element signature="e#1424#1642#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/101.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-508">
@@ -710,34 +593,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding>
-            <element signature="e#365#726#0#PHP" />
-            <element signature="e#731#873#0#PHP" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/authors.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/author.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/books.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Models/Books_Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="572">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/0ee3dd92e39d06c4ca217c97dbddf69d.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/1bcf49ab3764cacb47adac2885a3d41a.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/5fcc204acfeea96ca5da90cc35038b2a.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/8f4c1abde3ad3ff2dd346077b4a15625.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/236d380668ba09cac450459c30c65361.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/675bf013a6037076c4a881f7f085524e.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/f0d3d26e7e7088546ef0cc7a167924b4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/d07e95d8ff7550ad1b9e8b276e70ed14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/a0ad3bf9a2b9767ea4bfb70934d1b8b1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/38a521af3927220aee8f5418359786cf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Repository/AuthorsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Service/AuthorsService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="e#45#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthorsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="e#41#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Service/BooksService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#45#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/book.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/editBook.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="83" column="77" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BooksController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="616">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding>
-            <element signature="e#41#75#0#PHP" expanded="true" />
-            <element signature="e#580#703#0#PHP" />
-            <element signature="e#709#819#0#PHP" />
-            <element signature="e#825#1000#0#PHP" />
-            <element signature="e#1178#1296#0#PHP" />
+            <element signature="e#41#77#0#PHP" expanded="true" />
+            <element signature="e#344#529#0#PHP" />
+            <element signature="e#535#724#0#PHP" />
+            <element signature="e#730#965#0#PHP" />
+            <element signature="e#971#1154#0#PHP" />
+            <element signature="e#1160#1398#0#PHP" />
+            <element signature="e#1404#1682#0#PHP" />
+            <element signature="e#1688#1879#0#PHP" />
+            <element signature="e#1931#2360#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/addBook.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/kotobi/books/Repository/BooksRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <element signature="e#48#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

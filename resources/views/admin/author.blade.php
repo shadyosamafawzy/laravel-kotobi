@@ -1,17 +1,34 @@
 @extends('admin.index')
 
 @section('title')
-    Books
+    Author
 @endsection
 @section('content')
-    @if(!is_object($books))
-        <div class="alert alert-block alert-danger fade in">
-            <button data-dismiss="alert" class="close close-sm" type="button">
-                <i class="fa fa-times"></i>
-            </button>
-            <strong>{{$books}}</strong>
-        </div>
-    @else
+    <aside class="profile-nav col-lg-3">
+        <section class="panel">
+            <div class="user-heading round">
+                <a href="#">
+                    <img src="{{asset('uploads/'.$author->image)}}" alt="">
+                </a>
+                <h1>{{$author->name}}</h1>
+            </div>
+
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="{{asset('author/del/'.$author->author_id)}}"> <i class="fa fa-trash-o"></i> Delete Author</a></li>
+                <li><a href="{{asset('author/edit/'.$author->author_id)}}"> <i class="fa fa-edit"></i> Edit profile</a></li>
+            </ul>
+
+        </section>
+    </aside>
+    <aside class="profile-info col-lg-9">
+        @if(!is_array($books))
+            <div class="alert alert-block alert-danger fade in">
+                <button data-dismiss="alert" class="close close-sm" type="button">
+                    <i class="fa fa-times"></i>
+                </button>
+                <strong>No books found to this Author</strong>
+            </div>
+        @else
         <div class="row product-list">
             @foreach($books as $book)
 
@@ -36,7 +53,7 @@
                 </div>
 
             @endforeach
-
+        @endif
         </div>
-    @endif
+    </aside>
 @endsection

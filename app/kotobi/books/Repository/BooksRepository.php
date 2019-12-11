@@ -4,14 +4,17 @@ namespace App\kotobi\books\Repository;
 
 
 use App\kotobi\books\Models\Books;
+use App\kotobi\books\Models\Books_Categories;
 use App\kotobi\Repository;
 
 class BooksRepository extends Repository
 {
     private $bookModel;
-    public function __construct(Books $books)
+    private $bookCatModel;
+    public function __construct(Books $books ,Books_Categories $books_Categories)
     {
-        $this->bookModel = $books ;
+        $this->bookModel    = $books ;
+        $this->bookCatModel = $books_Categories ;
     }
 
     public function index()
@@ -21,14 +24,22 @@ class BooksRepository extends Repository
 
     public function add($request)
     {
+        //dd(count($request['categories']));
         $newName = $this->uploadImage();
-
-
         $this->bookModel->title       = $request['title'];
         $this->bookModel->description = $request['description'];
         $this->bookModel->author_id   = $request['author_id'];
         $this->bookModel->image       = $newName;
         $this->bookModel->save();
+        $book = $this->bookModel->latest()->get();
+
+       for($i = 0 ; $i < count($request['categories']) ; )
+        {
+            $this->bookCatModel->book_id = $book[0]->book_id;
+            $this->bookCatModel->cat_id  = $request['categories'][$i];
+            $this->bookCatModel->save();
+            $i++;
+        }
     }
 
     public function edit($id,$request)

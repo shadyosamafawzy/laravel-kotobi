@@ -69,8 +69,18 @@
                                 @endforeach
                             </select>
                         </div>
-
                     </div>
+                        <div class="form-group">
+                            <label class="col-lg-2 col-sm-2 control-label">Book Categories</label>
+                            <div class="col-lg-10">
+                                <select multiple class="form-control m-bot15" name="categories[]">
+                                    @foreach($categories as $category)
+                                        <option value="{{$category->cat_id}}">{{$category->cat_name}}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+
+                        </div>
                     <div class="form-group">
                         <label  class="col-lg-2 col-sm-2 control-label">Book Cover</label>
                         <div class="col-lg-10">

@@ -27,7 +27,8 @@ class BooksService extends Service
             'title'       => 'required|min:1|max:100',
             'description' => 'required|min:20',
             'author_id'   => 'required',
-            'image'       => 'required|image|mimes:jpeg,png,jpg|max:2048'
+            'image'       => 'required|image|mimes:jpeg,png,jpg|max:2048',
+            'categories'  => 'required'
         ])))
             return true;
 

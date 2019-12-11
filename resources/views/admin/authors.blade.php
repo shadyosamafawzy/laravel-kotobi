@@ -24,7 +24,7 @@
 
                         <div class="panel-body text-center">
                             <h4>
-                                <a href="#" class="pro-title">
+                                <a href="{{asset('author/'.$author->author_id)}}" class="pro-title">
                                     {{$author->name}}
                                 </a>
                             </h4>

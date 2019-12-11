@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\kotobi\books\Models\Authors;
+use App\kotobi\books\Models\Books;
 use App\kotobi\books\Service\AuthorsService;
 
 
@@ -63,5 +64,12 @@ class AuthorsController extends Controller
         $this->authorsService->edit($id);
         return redirect('authors');
 
+    }
+
+    public function findAuthor($id)
+    {
+        if(session('group_id') != 1)
+            return redirect('101');
+        return view('admin.author')->with('author', Authors::findOrFail($id))->with('books', Books::where('author_id',Authors::findOrFail($id)->author_id)->get());
     }
 }

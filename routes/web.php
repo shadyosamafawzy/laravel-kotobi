@@ -29,6 +29,7 @@ Route::get('add/author','AuthorsController@addForm')->name('addAuthorAdmin');
 Route::post('add/author','AuthorsController@addProcess');
 Route::get('author/edit/{authors}','AuthorsController@editForm');
 Route::post('author/edit/{authors}','AuthorsController@editProcess');
+Route::get('author/{authors}','AuthorsController@findAuthor');
 
     //books
 Route::get('books','BooksController@index')->name('booksAdmin');
@@ -37,4 +38,5 @@ Route::get('add/book','BooksController@addForm')->name('addBookAdmin');
 Route::post('add/book','BooksController@addProcess');
 Route::get('book/edit/{book}','BooksController@editForm');
 Route::post('book/edit/{book}','BooksController@editProcess');
+Route::get('book/{book}','BooksController@findBook');
 
